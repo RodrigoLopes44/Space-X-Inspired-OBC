@@ -32,13 +32,15 @@
   </head>
 
   <body data-aos-easing="ease">
-    <div class="container-fluid container00">
+    <div class="container-fluid container00 container01">
+      <!-- Navigation Menu -->
       <div class="container">
-        <header>
-          <nav class="navbar navbar-expand-lg bg-transparent pt-4">
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
             <div class="container-fluid">
-              <a class="navbar-brand" href="/index.html">
+              <a class="navbar-brand" href="./index.html">
                 <img
+                  class="logoPc"
                   src="assets/images/logo-obc-2021-darkbg.png"
                   alt="Logo One Bit SpaceX"
                 />
@@ -58,16 +60,18 @@
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a
-                      class="nav-link active text-white"
+                      class="nav-link active"
                       aria-current="page"
-                      href="falcon9.html"
+                      href="./falcon9.html"
+                      id="navItem"
                       >FALCON 9</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
-                      class="nav-link active text-white"
-                      href="humanflight.html"
+                      class="nav-link active"
+                      href="./humanflight.html"
+                      id="navItem"
                       >HUMAN SPACE FLIGHT</a
                     >
                   </li>
@@ -77,21 +81,88 @@
           </nav>
         </header>
       </div>
-      <main>
-        <div
-          class="container container01"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
-          <h5 class="h5">LANÇAMENTO A CAMINHO</h5>
-          <h1 class="h1">MISSÃO EQUIPE-3</h1>
-          <button type="button" class="btn btn-outline-light mt-5">
-            SAIBA MAIS
-          </button>
+
+      <!-- First Information Container -->
+      <div
+        class="container titlePadding"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
+        <p class="h5" id="launchComing">LANÇAMENTO A CAMINHO</p>
+        <p class="h1">MISSÃO EQUIPE-3</p>
+        <button type="button" class="btn btn-outline-light mt-5" id="button">
+          SAIBA MAIS
+        </button>
+        <div class="container text-center">
+          <img
+            src="assets/home/arrowDown.gif"
+            alt="arrowDown"
+            class="arrowDown"
+          />
         </div>
-      </main>
+      </div>
     </div>
+
+    <!-- Second Information Container -->
+    <div class="container-fluid container00 container02">
+      <div
+        class="container titlePadding"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <p class="h5" id="launchComing">MISSÃO CONCLUÍDA</p>
+        <p class="h1 shortTitle">MISSÃO EQUIPE-2 RETORNOU PARA A TERRA</p>
+        <button type="button" class="btn btn-outline-light mt-5" id="button">
+          SAIBA MAIS
+        </button>
+      </div>
+    </div>
+    <!-- Third Information Container -->
+    <div class="container-fluid container00 container03">
+      <div
+        class="container titlePadding"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <p class="h5" id="launchComing">MISSÃO CONCLUÍDA</p>
+        <p class="h1 shortTitle">DRAGON RETORNOU PARA A TERRA</p>
+        <button type="button" class="btn btn-outline-light mt-5" id="button">
+          SAIBA MAIS
+        </button>
+      </div>
+    </div>
+    <!-- Fourth Information Container -->
+    <div class="container-fluid container00 container04">
+      <div
+        class="container titlePadding"
+        data-aos="fade-down-right"
+        data-aos-duration="1500"
+      >
+        <p class="h1 mediumTitle">STARSHIP POUSA ASTRONAUTAS DA NASA NA LUA</p>
+        <button type="button" class="btn btn-outline-light mt-5" id="button">
+          SAIBA MAIS
+        </button>
+      </div>
+    </div>
+
+    <footer class="container-fluid footer">
+      <span class="me-4 copyOBC">OneBitCode © 2021</span>
+      <a
+        href="https://www.instagram.com/onebitcode/?hl=en"
+        target="blank"
+        class="me-4"
+        >Instagram</a
+      >
+      <a
+        href="https://www.youtube.com/channel/UC44Mzz2-5TpyfklUCQ5NuxQ"
+        target="blank"
+        class="me-4"
+        >YouTube</a
+      >
+      <a href="https://twitter.com/onebitcode" target="blank" class="me-4"
+        >Twitter</a
+      >
+    </footer>
 
     <!-- AOS Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

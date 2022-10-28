@@ -1,3 +1,11 @@
-@import "./falcon9/style.scss";
-@import "./humanflight/style.scss";
-@import "./home/style.scss";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+
+@import "../sass/commonElements/variables.scss";
+
+@import "../sass/commonElements/commonElements.scss";
+
+@import "../sass/pages/home/style.scss";
+
+@import "../sass/pages/falcon9/style.scss";
+
+@import "../sass/pages/humanflight/style.scss";
