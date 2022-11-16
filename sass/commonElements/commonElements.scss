@@ -56,6 +56,16 @@
 
 // Media query
 
+// Information Button Only Visual
+@media (max-width: 449px) {
+  .downloadDesc {
+    button {
+      margin: 10px 0px;
+    }
+  }
+}
+
+// Footer Adaptation
 @media (max-width: 405px) {
   .logoPc {
     width: 180px;
@@ -69,6 +79,7 @@
   }
 }
 
+// Logo Adaptation
 @media (max-width: 350px) {
   .logoPc {
     width: 145px;
