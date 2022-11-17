@@ -104,7 +104,7 @@
   }
 }
 .container00.container01 {
-  background-image: url(../../../assets/home/01.jpg);
+  background-image: url(../assets/home/01.jpg);
 }
 .container00.container02 {
   background-image: url(../../../assets/home/03.jpg);
@@ -135,14 +135,14 @@
     padding-top: 120px;
   }
   .shortTitle,
-.mediumTitle {
+  .mediumTitle {
     width: auto;
     font-size: 50px;
   }
 }
 @media (max-width: 380px) {
   .shortTitle,
-.mediumTitle {
+  .mediumTitle {
     width: auto;
     font-size: 40px;
   }
