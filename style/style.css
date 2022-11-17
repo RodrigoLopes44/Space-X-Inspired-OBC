@@ -237,12 +237,15 @@
 }
 @media (max-width: 375px) {
   .titleFalcon9 {
-    margin-top: 50%;
+    margin-top: 18vh;
     font-size: 50px;
   }
   .falcon9Desc {
     font-size: 18px;
     line-height: auto;
+  }
+  .subTitleFalcon {
+    font-size: 14px;
   }
 }
 
