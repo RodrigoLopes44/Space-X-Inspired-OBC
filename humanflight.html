@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Human Flight</title>
+    <title>Space-X</title>
 
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <!-- Fav Icon -->
     <link
       rel="shortcut icon"
@@ -23,10 +22,231 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+
+    <!-- Data AOS CSS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
 
-  <body>
-    <!-- Bootstrap JavaScript Libraries -->
+  <body data-aos-easing="ease">
+    <div class="container-fluid container00 container08">
+      <!-- Navigation Menu -->
+      <div class="container">
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img
+                  class="logoPc"
+                  src="assets/images/logo-obc-2021-darkbg.png"
+                  alt="Logo One Bit SpaceX"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./falcon9.html"
+                      id="navItem"
+                      >FALCON 9</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="./humanflight.html"
+                      id="navItem"
+                      >HUMAN SPACE FLIGHT</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <!-- INTRODUÇÃO HUMAN SPACE FLIGHT -->
+      <div
+        class="container text-center container01Content"
+        data-aos="fade-down"
+        data-aos-duration="1500"
+      >
+        <p class="h1 titleHuman">HUMAN SPACE FLIGHT</p>
+        <p class="subTitleHuman">FAZENDO A VIDA MULTIPLANETÁRIA</p>
+
+        <img
+          src="assets/home/arrowDown.gif"
+          alt="arrowDown"
+          class="arrowDown"
+        />
+      </div>
+    </div>
+
+    <!-- INFORMAÇÕES PESSOAIS SOBRE O PROJETO -->
+    <div class="container-fluid text-center contentInfo">
+      <div class="flip" data-aos="flip-down" data-aos-duration="2000">
+        <p class="projectDesc">
+          Este clone foi desenvolvido durante as aulas do curso FullStack
+          JavaScript da OneBitCode. Se você está gostando dele até o momento,
+          que tal me chamar no linkedin para saber mais sobre minhas
+          habilidades?
+        </p>
+        <p>
+          <a
+            class="contactLinkedin"
+            href="https://www.linkedin.com/in/rod-goncalvess/"
+            target="_blank"
+          >
+            Rodrigo Lopes, aluno OneBitCode.
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <!-- ORBITAR A TERRA (RIGHT) -->
+    <div class="container-fluid container00 container09">
+      <div
+        class="containerRightContent"
+        data-aos="flip-right"
+        data-aos-duration="2000"
+      >
+        <p>MISSÃO</p>
+        <p class="h2 titleSection">ORBITAR A TERRA</p>
+        <p class="subTitle">EXPERIENCIE A VISÃO DO PLANETA A 300KM DE ALTURA</p>
+        <button class="btn btn-outline-light p-3 px-5" type="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+
+    <!-- ESTAÇÃO ESPACIAL (LEFT) -->
+    <div class="container-fluid container00 container10">
+      <div
+        class="containerLeftContent"
+        data-aos="flip-left"
+        data-aos-duration="2000"
+      >
+        <p>MISSÃO</p>
+        <p class="h2 titleSection">ESTAÇÃO ESPACIAL</p>
+        <p class="subTitle">
+          TRANSPORTAR HUMANOS PARA O LABORATÓRIO VOADOR NAS ESTRELAS
+        </p>
+        <button class="btn btn-outline-light p-3 px-5" type="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+
+    <!-- LUA (RIGHT) -->
+    <div class="container-fluid container00 container11">
+      <div
+        class="containerRightContent"
+        data-aos="flip-left"
+        data-aos-duration="2000"
+      >
+        <p>MISSÃO</p>
+        <p class="h2 titleSection">A LUA</p>
+        <p class="subTitle">
+          RETORNANDO HUMANOS PARA A NOSSA VIZINHA INTERGALÁCTICA
+        </p>
+        <button class="btn btn-outline-light p-3 px-5" type="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+
+    <!-- MARTE E ALÉM (LEFT) -->
+    <div class="container-fluid container00 container12">
+      <div
+        class="containerLeftContent"
+        data-aos="flip-left"
+        data-aos-duration="2000"
+      >
+        <p>MISSÃO</p>
+        <p class="h2 titleSection">MARTE E ALÉM</p>
+        <p class="subTitle">
+          O CAMINHO PARA TORNAR A HUMANIDADE MULTIPLANETÁRIA
+        </p>
+        <button class="btn btn-outline-light p-3 px-5" type="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+
+    <!-- INFORMAÇÕES EXTRAS -->
+    <div class="container-fluid text-center downloadDesc">
+      <p data-aos="zoom-in" data-aos-duration="2000">
+        Para mais informações sobre os serviços entre em contato com
+        <a
+          class="contactLinkedin"
+          href="https://www.linkedin.com/in/rod-goncalvess/"
+          target="_blank"
+          >Rodrigo Lopes</a
+        >
+      </p>
+      <button
+        type="button"
+        class="btn btn-outline-light p-3"
+        data-aos="zoom-in-right"
+        data-aos-duration="2500"
+      >
+        GUIA DO USUÁRIO
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-outline-light p-3"
+        data-aos="zoom-in-left"
+        data-aos-duration="2500"
+      >
+        CAPACIDADES E SERVIÇOS
+      </button>
+    </div>
+
+    <footer class="container-fluid footer">
+      <span class="me-4 copyOBC">OneBitCode © 2021</span>
+      <a
+        href="https://www.instagram.com/onebitcode/?hl=en"
+        target="blank"
+        class="me-4"
+        >Instagram</a
+      >
+      <a
+        href="https://www.youtube.com/channel/UC44Mzz2-5TpyfklUCQ5NuxQ"
+        target="blank"
+        class="me-4"
+        >YouTube</a
+      >
+      <a href="https://twitter.com/onebitcode" target="blank" class="me-4"
+        >Twitter</a
+      >
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- AOS Initialization -->
+    <script>
+      AOS.init();
+    </script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
